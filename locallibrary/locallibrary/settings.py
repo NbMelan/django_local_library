@@ -36,7 +36,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'django-insecure-+w6o_@r7my7q^f
 # DEBUG = True
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
-ALLOWED_HOSTS = ['anelyss.pythonanywhere.com', '127.0.0.1']
+ALLOWED_HOSTS = ['melan.pythonanywhere.com', '127.0.0.1']
 
 # During development, you can instead set just the base URL
 # (you might decide to change the site a few times).
@@ -168,7 +168,7 @@ STORAGES = {
     },
 }
 
-CSRF_TRUSTED_ORIGINS = ['https://anelyss.pythonanywhere.com']
+CSRF_TRUSTED_ORIGINS = ['https://melan.pythonanywhere.com']
 
 # During development/for this tutorial you can instead set just the base URL
 # CSRF_TRUSTED_ORIGINS = ['https://*.pythonanywhere.com']
